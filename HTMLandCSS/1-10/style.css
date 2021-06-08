@@ -230,3 +230,42 @@ footer {
   color:#fff;
 }
 
+@media screen and (max-width: 425px) {
+  main{
+    width: 100%;
+    display:block
+  }
+
+  .social i {
+    margin-left: 0px;
+  }
+
+  .blog{
+    width: 100%
+  }
+  .blog-text{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+  }
+
+  .blog-text-heading{
+    font-size: 15px;
+  }
+
+  .blog-date{
+    display:block
+  }
+
+  .pagination{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .popular-text{
+    text-align: center;
+  }
+  .instagram-box:nth-child(odd){
+    margin-right: 0px;
+  }
+}
+
